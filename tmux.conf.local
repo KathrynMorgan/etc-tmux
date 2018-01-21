@@ -265,3 +265,7 @@ set -g mouse on
 
 # move status line to top
 set -g status-position top
+
+# use different keys to split vertical and horizonal
+bind | split-window -h
+bind - split-window -v
